@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				233F46C921C2324F00A8EE83 /* AppDelegate.swift */,
-				233F46CB21C2324F00A8EE83 /* art.scnassets */,
 				233F46CD21C2324F00A8EE83 /* ViewController.swift */,
 				233F46CF21C2324F00A8EE83 /* Main.storyboard */,
+				233F46CB21C2324F00A8EE83 /* art.scnassets */,
 				233F46D221C2325300A8EE83 /* Assets.xcassets */,
 				233F46D421C2325300A8EE83 /* LaunchScreen.storyboard */,
 				233F46D721C2325300A8EE83 /* Info.plist */,
@@ -99,6 +99,11 @@
 				TargetAttributes = {
 					233F46C521C2324F00A8EE83 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
